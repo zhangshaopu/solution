@@ -26,7 +26,7 @@
 #include "textedit.h"
 #include "finddialog.h"
 //#include "widget.h"
-//#include "visualization.h"
+#include "visualization.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -109,7 +109,7 @@ private:
 
     LinkListForm linkedlist;
     DLinkList dlinklist;
-    //Widget sort;
+    Widget sort;
 
 private:
     QTabWidget* tabWidget;

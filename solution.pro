@@ -21,7 +21,9 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     myarrowitem.cpp \
-    textedit.cpp
+    textedit.cpp \
+    visualization.cpp \
+    algorithms.cpp
 
 HEADERS += \
     MyArrowItem.h \
@@ -35,12 +37,15 @@ HEADERS += \
     mainwindow.h \
     myarrowitem.h \
     textedit.h \
-    uidefine.h
+    uidefine.h \
+    visualization.h \
+    algorithms.h
 
 FORMS += \
     dlinklist.ui \
     linklistform.ui \
-    mainwindow.ui
+    mainwindow.ui \
+    widget.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

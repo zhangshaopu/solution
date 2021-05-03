@@ -709,5 +709,5 @@ void MainWindow::on_actionDoubleLinkedList_triggered()
 
 void MainWindow::on_actionSort_triggered()
 {
-    //sort.show();
+    sort.show();
 }
