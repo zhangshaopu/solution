@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/html">
+        <file>html/CLinkList.html</file>
+        <file>html/CLinkList.md</file>
+        <file>html/DLinkList.html</file>
+        <file>html/DLinkList.md</file>
+        <file>html/LinkList.html</file>
+        <file>html/LinkList.md</file>
+    </qresource>
+    <qresource prefix="/ico">
+        <file>resource/background.png</file>
+    </qresource>
+</RCC>
